@@ -34,13 +34,6 @@
 # --
 
 
-from tamkin.io.charmm import *
-from tamkin.io.cp2k import *
-from tamkin.io.cpmd import *
-from tamkin.io.dispersion import *
-from tamkin.io.gamess import *
-from tamkin.io.gaussian import *
 from tamkin.io.internal import *
-from tamkin.io.qchem import *
 from tamkin.io.trajectory import *
-from tamkin.io.vasp import *
+

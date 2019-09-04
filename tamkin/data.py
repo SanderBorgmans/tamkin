@@ -287,7 +287,7 @@ class Molecule(BaseMolecule):
         mandatory_fields = set([
             "numbers", "coordinates", "masses", "energy", "gradient", "hessian"
         ])
-        if not set(data.iterkeys()).issuperset(mandatory_fields):
+        if not set(data.keys()).issuperset(mandatory_fields):
             raise IOError("The Checkpoint file does not contain the mandatory fields.")
         # take the mandatory fields
         constructor_args = {}

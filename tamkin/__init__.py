@@ -36,14 +36,7 @@
 
 from .version import __version__
 
-from tamkin.chemmod import *
 from tamkin.data import *
 from tamkin.io import *
 from tamkin.geom import *
 from tamkin.nma import *
-from tamkin.nmatools import *
-from tamkin.partf import *
-from tamkin.rotor import *
-from tamkin.timer import *
-from tamkin.pftools import *
-from tamkin.tunneling import *
